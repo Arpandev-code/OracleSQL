@@ -4,7 +4,7 @@ The GROUP BY statement groups rows that have the same values into summary rows, 
 
 The GROUP BY statement is often used with aggregate functions (COUNT(), MAX(), MIN(), SUM(), AVG()) to group the result-set by one or more columns.
 Suppose we have a table student having 3 columns Name,Subject,Marks NOW we will use group by to answer below questions
-1. Find maximam maek in every subject
+1. Find maximam mark in every subject
 */
 SELECT subject, MAX(marks) FROM student GROUP BY subject;
 
